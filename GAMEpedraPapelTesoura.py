@@ -5,19 +5,20 @@ itens = ("Pedra", "Papel", "Tesoura")
 
 opcao = int(input("\nSuas opções:\n\n[ 0 ] PEDRA\n[ 1 ] PAPEL\n[ 2 ] TESOURA\n\nQual é a sua jogada? "))
 
-sleep(1)
-print("\nJO")
-sleep(1)
-print("KEN")
-sleep(1)
-print("PO!!!\n")
-sleep(2)
-
 jogadaMaquina = randint(0, 2)
 
 if 0 < jogadaMaquina > 2 or 0 < opcao > 2:
-  print("Opção inválida!\nTente novamente!")
+  print("\nOpção inválida!\nTente novamente!")
+
 else:
+  sleep(1)
+  print("\nJO")
+  sleep(1)
+  print("KEN")
+  sleep(1)
+  print("PO!!!\n")
+  sleep(2)
+
   print("-="*20)
   print(f"COMPUTADOR escolheu {itens[jogadaMaquina]}")
   print(f"{nome} escolheu {itens[opcao]}")
