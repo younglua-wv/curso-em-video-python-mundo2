@@ -14,14 +14,12 @@ if opcao > 2 or opcao < 0:
 
 else:
   
-  sleep(1)
   print("\nJO")
   sleep(1)
   print("KEN")
   sleep(1)
   print("PO!!!\n")
-  sleep(2)
-
+  
   print("-="*20)
   
   print(f"COMPUTADOR escolheu {itens[jogadaMaquina]}")
