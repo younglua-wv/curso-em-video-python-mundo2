@@ -1,2 +1,2 @@
 language = "python3"
-run = "python3 jogoDaAdivinhacao.py"
+run = "python3 analiseDeDados.py"
